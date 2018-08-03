@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<!-- Codificacion de caracteres-->
+		<meta charset="utf-8" />
+		<title> PWA </title> <!-- titulo de la web-->
+		<!--view port responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<!-- icono de web-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+		<!-- color de aplicacion-->
+		<meta name="theme-color" content="green"/>
+		<!-- optimizado para movil-->
+		<meta name="MobilOptimized" content="width"/>
+		<meta name="HandheldFiendly" content="true"/>
+
+		<!-- meta etiqueta PWA para apple -->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="back-translucent"/>
+		<link rel="apple-touch-icon" href="img/favicon.png"/>
+		<link rel="apple-touch-startup-image" href="img/favicon.png"/>
+
+		<!-- configuracion general PWA-->
+		<link rel="manifest" href="manifest.json"/>
+
+		<!-- hoja de styles-->
+		<link rel="stylesheet" href="css/styles.css">
+		<!-- Scripts-->	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<header id="main-header">
+			<div class="container">
+				<div id="logo">
+					<h1>Frontal Lobe</h1>
+					
+				</div> 
+				<div id="menu">
+					<ul>
+						<li>
+							<a href="#main-header">Inicio</a>
+						</li>
+						<li>
+							<a href="#services">Portafolio</a>
+						</li>
+						<li>
+							<a href="#videos">Videos</a>
+						</li>
+						<li>
+							<a href="#footer">Contacto</a>
+						</li>
+					</ul>
+				</div>  <!-- fin menu-->
+			</div> <!-- fin container-->
+		</header>
+		<div class="clearfix"></div>
+		<div id="slider">
+			<div class="container">
+				<h2>Desarrollos de valor compartido</h2>
+			</div>
+		</div> <!-- fin slider-->
+		<div id="services">
+			<div class="container">
+				<h2 class="subheader">Portafolio</h2>
+					<div class="service">
+						<img src="img/1.png"/>
+						<h3>Ventas en linea</h3>
+						<p>
+							Plataforma para venta en detalle de productos locales, asegurando calidad, entrega y un pago justo para los vendedores. 
+						</p>
+					</div>
+					<div class="service">
+						<img src="img/2.png"/>
+						<h3>Registro de mascotas</h3>
+						<p>
+							Ofrecemos servicios de registro de mascotas para acceder a su informacion desde cualquier sitio
+						</p>
+					</div>
+					<div class="service">
+						<img src="img/3.png"/>
+						<h3>Educacion en linea</h3>
+						<p>
+							Plataforma para tutoriales locales, considerando la localidad del tutorial
+						</p>
+					</div>
+				</div> 
+			</div><!-- fin servicios-->
+		<div class="clearfix"></div>	
+		<div id='videos'>
+			<div class="container">
+				<h2 class="subheader">Videos</h2>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3Go4KHBKvM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>
+						Este video realiza una explicacion detallada de las empresas de valor compartido
+					</p>
+				</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3Go4KHBKvM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>
+						Este video realiza una explicacion detallada de las empresas de valor compartido
+					</p>
+				</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/3Go4KHBKvM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>
+						Este video realiza una explicacion detallada de las empresas de valor compartido
+					</p>
+				</div>
+			</div>
+		</div> <!-- fin videos -->
+		<div class="clearfix"></div>
+		<footer id="footer">
+			<div class="container">
+				<h2 class="subheader">Contacto</h2>
+				<p>Puedes contactarnos por cualquiera de las siguientes redes sociales</p>
+				<ul id="network">
+					<li>
+						<a href="">
+							<img src="img/twitter.png"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/facebook.png"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/instagram.png"/>
+						</a>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</footer>
+	</body>
+</html>
